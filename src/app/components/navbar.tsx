@@ -31,6 +31,11 @@ const Navbar = () => {
               Home
             </span>
           </Link>
+          <Link href="/about">
+            <span className="hover:text-blue-400 transition duration-200">
+              About
+            </span>
+          </Link>
           <Link href="/blog">
             <span className="hover:text-blue-400 transition duration-200">
               Blog

@@ -1,5 +1,7 @@
+"use client";
 import Image from 'next/image'
 import  education from "../public/edu.png"
+import CommentSection from '../components/comment'
 
 export default function Blog() {
   return (
@@ -36,9 +38,14 @@ export default function Blog() {
           and resource allocation, which allows educators to focus more on teaching. AI also enables virtual tutors and chatbots 
           to assist students outside of classroom hours, providing on-demand help.
             </p>
+
           </div>
+          
         </div>
       </div> 
+      <div>
+        <CommentSection />
+      </div>
     </div>
   )
 }

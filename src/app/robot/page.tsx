@@ -1,5 +1,7 @@
+"use client";
 import Image from 'next/image'
 import ai from '../public/ai.png'
+import CommentSection from '../components/comment'
 
 export default function Robotic() {
   return (
@@ -28,6 +30,9 @@ export default function Robotic() {
         <p className=" mt-4">
           From healthcare to manufacturing, AI-powered robots are making processes more efficient and cost-effective. In this blog, we will dive deeper into some key advancements and their impact on society.
         </p>
+      </div>
+      <div>
+        <CommentSection />
       </div>
     </div>
   )

@@ -1,5 +1,5 @@
-
-
+"use client";
+import CommentSection from "../components/comment";
 export default function Health() {
   return (
     <>
@@ -58,6 +58,9 @@ export default function Health() {
             </p>
           </section>
         </main>
+        <div>
+          <CommentSection />
+        </div>
       </div>
     </>
   );
