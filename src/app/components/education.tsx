@@ -1,9 +1,9 @@
 "use client";
 import Image from 'next/image'
 import  education from "../public/edu.png"
-import CommentSection from '../components/comment'
+import CommentSection from './comment'
 
-export default function Blog() {
+export default function Education() {
   return (
     <div className="max-w-7xl mx-auto px-4 py-8 bg-cyan-950 ">
       <h1 className="text-4xl font-bold text-center mb-8  text-white">AI & Robotics Blog</h1>

@@ -16,7 +16,7 @@ export default function Hero() {
             <p className="text-gray-300 mb-4">
               Learn how AI is revolutionizing the healthcare industry by providing better diagnostics and treatments.
             </p>
-            <Link href="/health">
+            <Link href="/post/health">
             <button className="bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700 transition-all duration-200">
               Read More
             </button>
@@ -32,7 +32,7 @@ export default function Hero() {
             <p className="text-gray-300 mb-4">
               Discover how robotics and AI work together to automate industries and transform lives.
             </p>
-            <Link href="/robot">
+            <Link href="/post/robot">
             <button className="bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700 transition-all duration-200">
               Read More
             </button>
@@ -48,7 +48,7 @@ export default function Hero() {
             <p className="text-gray-300 mb-4">
               Explore the role of AI in reshaping education through personalized learning experiences.
             </p>
-            <Link href="/education">
+            <Link href="/post/education">
             <button className="bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700 transition-all duration-200">
               Read More
             </button>
