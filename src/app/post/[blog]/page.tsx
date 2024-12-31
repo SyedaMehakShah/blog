@@ -1,14 +1,15 @@
 
+
 import React from 'react';
 import HealthComponent from '@/app/components/health';
 import EducationComponent from '@/app/components/education';
 import RobotComponent from '@/app/components/robot';
 
 interface BlogProps {
-  params: { blog: string };
+  params: { blog: string }; // Ensure params has the correct structure
 }
 
-const Blog = ({ params }: BlogProps) => {
+const Blog = async ({ params }: BlogProps) => {
   const renderComponent = () => {
     switch (params.blog) {
       case 'health':
@@ -24,7 +25,7 @@ const Blog = ({ params }: BlogProps) => {
 
   return (
     <div>
-      {/* <h1>Dynamic Blog Page</h1> */}
+  
       {renderComponent()}
     </div>
   );
