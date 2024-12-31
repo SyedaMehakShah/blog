@@ -7,6 +7,7 @@ import Link from 'next/link';
 export default function Hero() {
   return (
     <main className="py-10 bg-cyan-950">
+      {/* main  */}
       <section className="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-6">
         {/* AI in Healthcare Card */}
         <div className="bg-gray-800 text-white rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transform hover:scale-105 transition-all duration-300 ease-in-out">
