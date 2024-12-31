@@ -19,7 +19,7 @@ const Blog = async ({ params }: BlogProps) => {
       case 'robot':
         return <RobotComponent />;
       default:
-        return <p>Blog not found. Please select a valid category.</p>;
+        return <p>Blog not found. Please select a valid category.</p>; 
     }
   };
 
